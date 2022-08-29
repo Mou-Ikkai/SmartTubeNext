@@ -9,6 +9,18 @@ updates:
     directory: "/" 
     schedule:
       interval: "daily"
+  - package-ecosystem: "gradle" 
+    directory: "/chatkit/" 
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "gradle" 
+    directory: "/common/" 
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "gradle" 
+    directory: "/smarttubetv/" 
+    schedule:
+      interval: "daily"
 
     # Try to remove the PR limit
     open-pull-requests-limit: 999
